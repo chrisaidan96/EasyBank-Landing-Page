@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: "Public Sans", sans-serif;
+  font-family: "constantia";
   line-height: 2;
   background: hsl(0, 0%, 98%);
 }
@@ -205,6 +205,22 @@ footer {
   .attribution a {
     color: hsl(136, 65%, 51%);
   }
+  img {  
+    transition: transform 0.1s;  
+  }  
+  
+  img:hover {  
+    animation: shake 0.5s;  
+  }  
+  
+  @keyframes shake {  
+    0% { transform: translate(1px, 0); }  
+    25% { transform: translate(-1px, 0); }  
+    50% { transform: translate(1px, 0); }  
+    75% { transform: translate(-1px, 0); }  
+    100% { transform: translate(0, 0); }  
+  }
+  
   /* Media Queries */
 @media screen and (max-width: 680px) {
     .Navbar__Items,
