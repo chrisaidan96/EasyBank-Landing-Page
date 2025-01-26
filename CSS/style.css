@@ -128,3 +128,31 @@ img {
 .sub-paragraph {
   width: 50%;
 }
+/* Latest Articles Section */
+.latest_article {
+    position: relative;
+    top: -300px;
+    padding: 0 5%;
+    margin-bottom: -200px;
+  }
+  
+  .articles_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding-top: 3%;
+  }
+  
+  .articles {
+    background-color: white;
+    border-radius: 20px;
+  }
+  
+  .sub-article {
+    padding: 0 6%;
+  }
+  
+  label {
+    opacity: 30%;
+  }
+  
