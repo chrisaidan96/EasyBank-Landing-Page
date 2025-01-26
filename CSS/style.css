@@ -206,7 +206,7 @@ footer {
     color: hsl(136, 65%, 51%);
   }
   /* Media Queries */
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 680px) 
     .Navbar__Items,
     .Navbar {
       flex-direction: column;
@@ -248,4 +248,25 @@ footer {
       .hero {
         padding: 0;
       }
+      .hero-text {
+        margin: 20rem 0 0 0;
+        text-align: center;
+        position: static;
+        padding: 0 10%;
+        max-width: 100%;
+      }
     
+      .bg-svg {
+        top: -5%;
+        left: 0;
+        max-width: 100%;
+      }
+    
+      .desktop {
+        display: none;
+      }
+    
+      .mobile {
+        display: block;
+        width: 100%;
+      }
