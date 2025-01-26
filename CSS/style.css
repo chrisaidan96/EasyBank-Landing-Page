@@ -91,11 +91,11 @@ button {
   border-radius: 20px;
   color: white;
   cursor: pointer;
-  background: linear-gradient(to left, hsl(192, 70%, 51%), hsl(136, 65%, 51%));
+  background: linear-gradient(to left, hsl(192, 70%, 51%), hsl(136, 76%, 71%));
 }
 
 button:hover {
-  opacity: 70%;
+  opacity: 80%;
 }
 
 img {
@@ -318,8 +318,9 @@ footer {
         text-align: center;
       }
     
-      .icons {
-        margin: auto;
-        align-items: center;
-        justify-content: center;
+        .icons {
+          margin: auto;
+          align-items: center;
+          justify-content: center;
+        }
       }
