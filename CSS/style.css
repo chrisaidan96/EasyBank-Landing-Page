@@ -236,3 +236,16 @@ footer {
     .Navbar-btn {
       display: none;
     }
+    .Navbar__Link-toggle {
+        align-self: flex-end;
+        display: initial;
+        position: absolute;
+        cursor: pointer;
+        font-size: 20px;
+        top: 25px;
+      }
+    
+      .hero {
+        padding: 0;
+      }
+    
