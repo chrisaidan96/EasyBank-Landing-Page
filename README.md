@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![image](https://user-images.githubusercontent.com/64808015/120483958-81889280-c3aa-11eb-8cc9-f5a6c1d53315.png)
+![image](/images/screenshot.png)
 
 
 
