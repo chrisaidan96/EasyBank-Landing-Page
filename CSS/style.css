@@ -40,6 +40,9 @@ p {
   color: hsl(233, 8%, 62%);
 }
 
+.Navbar__ToggleShow {
+  display:none;
+}
 .Navbar__Link:hover {
   border-bottom: 3px solid hsl(192, 70%, 51%);
   cursor: pointer;
